@@ -28,10 +28,13 @@ h2 {
     background-color: white;
     width: 50%;
     margin: 0 auto;
+    max-width:600px;
 }
 
 .sobre-conteudo__img {
     margin-top: 80px;
+    width: 100%;
+    max-width: 233px;
 }  
     
 .sobre-conteudo {
@@ -49,6 +52,19 @@ h2 {
     width: 87px;
     height: 86px;
     margin-left: 40px;
+}
+
+/* Media Query*/
+@media screen and (max-width: 500px) {
+    .secao-sobre {
+        background-color: pink;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 10px;
+    }
 }
 
 
