@@ -11,9 +11,11 @@ header {
     align-items: center;  
 }
  .header-caixa {
+    
     align-items: center;
     display: flex;
 }
+
 h1 {
     font-weight: bold;
     text-align: center;
