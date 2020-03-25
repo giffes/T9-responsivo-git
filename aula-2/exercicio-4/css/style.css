@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Open Sans', Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 /* FORM */
@@ -25,6 +25,7 @@ body {
         text-align: right;
         margin-right: 15px;
         vertical-align: top;
+        font-size: 1rem;
     }
 
     input[type="text"], select, input[type="number"] {
@@ -46,6 +47,7 @@ body {
 .half-col {
     display: inline-block;
     width: 45%;
+    font-size: 1rem;
 }
 
 /* BUTTON */
@@ -76,4 +78,21 @@ body {
 
 .btn_purple:hover {
     background-color: #3a006d;
+}
+
+@media screen and (max-width: 500px) {
+
+    .form > div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    label {
+        text-align: center;
+    }
+
+
+   
 }
