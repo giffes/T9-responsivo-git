@@ -80,13 +80,8 @@ body {
     background-color: #3a006d;
 }
 
-<<<<<<< HEAD
 @media screen and (max-width: 500px) {
 
-=======
-/* Media Queries */
-@media screen and (max-width: 500px) {
->>>>>>> bee18bacdd04e120a95048205b79309aadd42fdd
     .form > div {
         display: flex;
         flex-direction: column;
@@ -97,11 +92,7 @@ body {
     label {
         text-align: center;
     }
-<<<<<<< HEAD
 
 
    
 }
-=======
-}
->>>>>>> bee18bacdd04e120a95048205b79309aadd42fdd
